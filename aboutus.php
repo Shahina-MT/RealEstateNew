@@ -174,6 +174,42 @@
         </div>
     </section>
 
+    <section class="team">
+        <div class="container">
+            <h1 class="team-h1">Meet Our Team</h1>
+            <div class="owl-carousel owl-theme" id="owl-ourteam">
+                            <div class="item">
+                                <div class="owl-teamdiv">
+                                   <img src="./images/team-img1.png" alt="" class="ourteamimg">
+                                   <h1 class="ourteam-h1">David Chen</h1>
+                                   <p class="ourteam-pr">Managing Broker / Team Lead</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-teamdiv">
+                                   <img src="./images/team-img2.png" alt="" class="ourteamimg">
+                                   <h1 class="ourteam-h1">Jessica Morgan</h1>
+                                   <p class="ourteam-pr"> Lead Buyer’s Agent</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-teamdiv">
+                                   <img src="./images/team-img3.png" alt="" class="ourteamimg">
+                                   <h1 class="ourteam-h1">Ethan Patel</h1>
+                                   <p class="ourteam-pr">Real Estate Sales Associate</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-teamdiv">
+                                   <img src="./images/team-img4.png" alt="" class="ourteamimg">
+                                   <h1 class="ourteam-h1">Sophia Martinez</h1>
+                                   <p class="ourteam-pr">Lead Listing Agent</p>
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </section>
+
     <section class="abt-prprts">
         <div class="container">
             <div class="prprty-row">
@@ -188,7 +224,7 @@
 
                     </div>
                     <div class="col-lg-9">
-                        <div class="owl-carousel owl-theme" id="owl-demo">
+                        <div class="owl-carousel owl-theme" id="abtowl-demo">
                             <div class="item">
                                 <div class="owl-div">
                                     <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
@@ -227,7 +263,7 @@
                             </div>
                             <div class="item">
                                 <div class="owl-div">
-                                    <img src="./images/owlcarousel-image3.png" alt="" class="owl-img">
+                                    <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
                                     <div class="overlay">
                                         <h1 class="ovrly-hd">Seaside Cottage</h1>
                                         <div class="dtyls d-flex">
@@ -245,7 +281,7 @@
                             </div>
                             <div class="item">
                                 <div class="owl-div">
-                                    <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
+                                    <img src="./images/owlcarousel-image2.png" alt="" class="owl-img">
                                     <div class="overlay">
                                         <h1 class="ovrly-hd">Seaside Cottage</h1>
                                         <div class="dtyls d-flex">
@@ -264,7 +300,7 @@
                             </div>
                             <div class="item">
                                 <div class="owl-div">
-                                    <img src="./images/owlcarousel-image2.png" alt="" class="owl-img">
+                                    <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
                                     <div class="overlay">
                                         <h1 class="ovrly-hd">Seaside Cottage</h1>
                                         <div class="dtyls d-flex">
@@ -301,9 +337,9 @@
 
     <script>
 
-        $("#owl-demo").owlCarousel({
+        $("#abtowl-demo").owlCarousel({
             loop: true,
-            margin: 80,
+            margin: 20,
             nav: true,
             pagination: true,
             dots: false,
@@ -312,7 +348,6 @@
             responsive: {
                 0: {
                     items: 1,
-                    margin: 10
                 },
                 480: {
                     items: 2
@@ -323,6 +358,30 @@
             }
         })
     </script>
+
+<script>
+
+$("#owl-ourteam").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    pagination: true,
+    dots: false,
+    responsive: true,
+    autoPlay: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        480: {
+            items: 2
+        },
+        769: {
+            items: 4
+        }
+    }
+})
+</script>
 </body>
 
 </html>

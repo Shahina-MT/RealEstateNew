@@ -28,14 +28,14 @@
     <section class="property-list">
         <div class="container">
             <div class="prprty-list">
-                <ul class="prprty-ul">
-                    <li class="prprty-li"><a href="#" class="prprty-link"><button type="button"
+                <ul class="nav nav-tabs prprty-ul">
+                    <li class="nav-item prprty-li"><a href="properties.php" class="nav-link prprty-link"><button type="button"
                                 class="prprty-btn active">All</button></a></li>
-                    <li class="prprty-li"><a href="#" class="prprty-link"><button type="button"
+                    <li class="nav-item prprty-li"><a href="properties.php" class="nav-link prprty-link"><button type="button"
                                 class="prprty-btn">Apartments</button></a></li>
-                    <li class="prprty-li"><a href="#" class="prprty-link"><button type="button"
+                    <li class="nav-item prprty-li"><a href="properties.php" class="nav-link prprty-link"><button type="button"
                                 class="prprty-btn">Residential</button></a></li>
-                    <li class="prprty-li"><a href="#" class="prprty-link"><button type="button"
+                    <li class="nav-item prprty-li"><a href="properties.php" class="nav-link prprty-link"><button type="button"
                                 class="prprty-btn">Cottage</button></a></li>
                 </ul>
                 <div class="prprty-items">

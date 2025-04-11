@@ -32,7 +32,7 @@
 
 
 <div class="modal modal-enquiry" tabindex="-1" id="enquirypopup">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
 
       <div class="modal-body rest-mdbody">

@@ -119,7 +119,7 @@
                             </div>
                             <div class="item">
                                 <div class="owl-div">
-                                    <img src="./images/owlcarousel-image3.png" alt="" class="owl-img">
+                                    <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
                                     <div class="overlay">
                                         <h1 class="ovrly-hd">Seaside Cottage</h1>
                                         <div class="dtyls d-flex">
@@ -137,7 +137,7 @@
                             </div>
                             <div class="item">
                                 <div class="owl-div">
-                                    <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
+                                    <img src="./images/owlcarousel-image2.png" alt="" class="owl-img">
                                     <div class="overlay">
                                         <h1 class="ovrly-hd">Seaside Cottage</h1>
                                         <div class="dtyls d-flex">
@@ -156,7 +156,7 @@
                             </div>
                             <div class="item">
                                 <div class="owl-div">
-                                    <img src="./images/owlcarousel-image2.png" alt="" class="owl-img">
+                                    <img src="./images/owlcarousel-image1.png" alt="" class="owl-img">
                                     <div class="overlay">
                                         <h1 class="ovrly-hd">Seaside Cottage</h1>
                                         <div class="dtyls d-flex">
@@ -444,7 +444,7 @@
 
         $("#owl-demo").owlCarousel({
             loop: true,
-            margin: 80,
+            margin: 20,
             nav: true,
             pagination: true,
             dots: false,
@@ -453,7 +453,6 @@
             responsive: {
                 0: {
                     items: 1,
-                    margin: 10
                 },
                 480: {
                     items: 2
